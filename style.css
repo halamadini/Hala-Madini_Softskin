@@ -418,7 +418,6 @@ body {
 
 .middle-btn:active {
     background: #8fa03a !important;
-    color: #fff !important;
     border: 1px solid #8fa03a !important;
 }
 .send-btn:active {
@@ -448,3 +447,4 @@ body {
     border: 1px solid #8fa03a !important;
     color: #000 !important;
 }
+
