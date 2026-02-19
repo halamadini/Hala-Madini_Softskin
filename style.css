@@ -433,3 +433,18 @@ body {
     color: #000 !important;
     text-decoration: none !important;
 }
+
+
+.middle-btn,
+.middle-btn:visited,
+.middle-btn:focus,
+.middle-btn:active {
+    color: #000 !important;
+}
+
+
+.middle-btn:active {
+    background: #8fa03a !important;
+    border: 1px solid #8fa03a !important;
+    color: #000 !important;
+}
