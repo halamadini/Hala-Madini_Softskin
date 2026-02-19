@@ -144,8 +144,11 @@ body {
     background: transparent;
     padding: 8px 18px;
     border-radius: 25px;
-    color: #000;          
+    color: #000 !important;
     font-weight: 500;
+    text-decoration: none;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .view-btn:hover {
@@ -397,3 +400,4 @@ body {
         display: none;
     }
 }
+
