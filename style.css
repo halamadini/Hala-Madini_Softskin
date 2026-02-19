@@ -1,4 +1,6 @@
 
+
+
 html, body {
     overflow-x: hidden;
 }
@@ -10,7 +12,9 @@ body {
 }
 
 
-
+.middle-btn{
+    color: black !important;
+}
 .top-nav {
     background: #8fa03a;
     padding: 15px 0;
@@ -401,3 +405,31 @@ body {
     }
 }
 
+.view-btn {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.view-btn:visited,
+.view-btn:focus,
+.view-btn:active {
+    color: #000 !important;
+}
+
+.middle-btn:active {
+    background: #8fa03a !important;
+    color: #fff !important;
+    border: 1px solid #8fa03a !important;
+}
+.send-btn:active {
+    transform: scale(0.96);
+    background: #6f812e;
+}
+
+.view-btn,
+.view-btn:visited,
+.view-btn:focus,
+.view-btn:active {
+    color: #000 !important;
+    text-decoration: none !important;
+}
