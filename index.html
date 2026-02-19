@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SoftSkin</title>
+
+<link rel="icon" href="assets/favicon.png">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark top-nav">
+<div class="container">
+<a class="navbar-brand fw-bold text-white" href="#">SoftSkin</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav mx-auto ms-3">
+<li class="nav-item"><a class="nav-link text-white" href="#">Learn</a></li>
+<li class="nav-item"><a class="nav-link text-white" href="#">Explore</a></li>
+<li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+</ul>
+
+<div class="d-flex align-items-center gap-4 text-white">
+
+
+
+
+<div class="d-flex align-items-center gap-2">
+    
+    <div class="cart-icon position-relative">
+        🛒
+        <span class="cart-count">0</span>
+    </div>
+
+    <span>Cart</span>
+
+</div>
+
+
+
+<span> 🌐 EN</span>
+
+
+<div class="dropdown">
+    <a class ="dropdown0toggle text-white text-decoration-none" href="#" role= "button" data-bs-toggle= "dropdown">
+        Login as a Seller▼
+    </a>
+    <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Seller Login</a></li>
+    <li><a class="dropdown-item" href="#">Register</a></li>
+  </ul>
+</div>
+
+
+</div>
+</div>
+</div>
+</nav>
+
+
+<section class="hero-full position-relative">
+<img src="assets/BANNER1.JPG" class="w-100">
+<div class="hero-text">
+<h2>Learn. Improve. Grow</h2>
+<p>Build your skills through job-ready programs and earn<br> your certification to propel your career.</p>
+</div>
+</section>
+
+
+<section class="text-center py-5">
+<h4>Explore our courses catalogue</h4>
+
+
+<div class="search-box mx-auto mt-3">
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Search course catalog">
+    <span class="input-group-text">
+      🔍
+    </span>
+  </div>
+</div>
+
+
+
+<div class="row justify-content-center mt-5">
+  
+  <div class="col-auto">
+    <button class="filter-btn">Recent Courses</button>
+  </div>
+
+  <div class="col-auto">
+    <button class="filter-btn active middle-btn">Featured Category</button>
+  </div>
+
+  <div class="col-auto">
+    <button class="filter-btn">Recent Courses</button>
+  </div>
+
+</div>
+
+
+</section>
+
+<section class="recent-section pb-5 position-relative">
+<div class="container">
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+
+
+
+
+<div class="recent-title d-flex align-items-center">
+
+    <h5 class="fw-bold mb-0">Recent Courses</h5>
+
+    <div class="title-divider mx-3"></div>
+
+    <p class="text-muted small mb-0 flex-grow-1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula nunc in neque sollicitudin,<br>
+        ac cursus tellus semper. Morbi posuere elit mollis erat gravida rhoncus.
+    </p>
+
+</div>
+
+
+
+
+<button class="view-btn">View all courses</button>
+</div>
+
+
+<div id="coursesCarousel" class="carousel slide" data-bs-ride="carousel">
+
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+<div class="row g-4">
+
+
+<div class="col-md-2_5 custom-col">
+<div class="course-card2">
+<div class="card-img position-relative">
+<img src="assets/f.jpeg">
+</div>
+<div class="p-3">
+<div class="d-flex align-items-center mb-2">
+<img src="assets/doc.png" class="doc-img me-2">
+<div>
+<span class="small text-muted">Instructor</span>
+<h6 class="mb-0 small fw-bold">Dr. Harald Helfeger</h6>
+</div>
+</div>
+<h6 class="fw-bold small">Effective use and understanding of clinical ....</h6>
+<p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<button class="details-btn2">Course details</button>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-2_5 custom-col">
+<div class="course-card2">
+<div class="card-img">
+<img src="assets/a.jpeg">
+</div>
+<div class="p-3">
+<div class="d-flex align-items-center mb-2">
+<img src="assets/doc.png" class="doc-img me-2">
+<div>
+<span class="small text-muted">Instructor</span>
+<h6 class="mb-0 small fw-bold">Dr. Harald Helfeger</h6>
+</div>
+</div>
+<h6 class="fw-bold small">Effective use and understanding of clinical ....</h6>
+<p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<span class="old-price">399$</span>
+<span class="new-price">299$</span>
+<button class="details-btn2">Course details</button>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-2_5 custom-col">
+<div class="course-card2">
+<div class="card-img">
+<img src="assets/d.jpeg">
+</div>
+<div class="p-3">
+<div class="d-flex align-items-center mb-2">
+<img src="assets/doc.png" class="doc-img me-2">
+<div>
+<span class="small text-muted">Instructor</span>
+<h6 class="mb-0 small fw-bold">Dr. Harald Helfeger</h6>
+</div>
+</div>
+<h6 class="fw-bold small">Effective use and understanding of clinical ....</h6>
+<p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<span class="new-price">149$</span>
+<button class="details-btn2">Course details</button>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-2_5 custom-col">
+<div class="course-card2">
+<div class="card-img">
+<img src="assets/s.jpeg">
+</div>
+<div class="p-3">
+<div class="d-flex align-items-center mb-2">
+<img src="assets/doc.png" class="doc-img me-2">
+<div>
+<span class="small text-muted">Instructor</span>
+<h6 class="mb-0 small fw-bold">Dr. Harald Helfeger</h6>
+</div>
+</div>
+<h6 class="fw-bold small">Effective use and understanding of clinical ....</h6>
+<p class="text-muted small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<span class="new-price">149$</span>
+<button class="details-btn2">Course details</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+
+
+<button class="carousel-control-prev" type="button" data-bs-target="#coursesCarousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</button>
+
+<button class="carousel-control-next" type="button" data-bs-target="#coursesCarousel" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</button>
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+<section class="soap-section position-relative">
+
+    <div class="soap-text">
+        <h3>Beauty products <br>of your own!</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+            sed do eiusmod tempor incididunt ut labore et dolore<br> magna
+            aliqua.
+        </p>
+    </div>
+
+    <div class="soap-right">
+        <ul>
+            <li>Pellentesque suscipit justo quis</li>
+            <li>Curabitur ac odio lacus</li>
+            <li>Nulla ligula metus, maximus</li>
+            <li>incididunt ut labore et</li>
+            <li>Nulla ligula metus, maximus</li>
+            <li>Nulla ligula metus, maximus</li>
+        </ul>
+
+        <button class="read-btn">Read more</button>
+    </div>
+
+</section>
+
+
+
+
+<section class="stats py-5">
+<div class="container">
+<div class="row align-items-center">
+
+<div class="col-lg-4 text-center">
+<img src="assets/10years.png" class="years-img">
+</div>
+
+<div class="col-lg-4">
+<div class="stat-item"><img src="assets/leaf.png"> <strong> 2K</strong>  <br>New products</div>
+<div class="stat-item"><img src="assets/leaf.png"> <strong>100K</strong> <br>Students</div>
+<div class="stat-item"><img src="assets/leaf.png"> <strong>10K</strong>  <br>Students</div>
+</div>
+
+<div class="col-lg-4">
+<h4 class="stat-title">Impressive track record</h4>
+<p class="text-muted">  Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, 
+    sed do eismod tempor incididunt ut labore et<br> dolore magna aliqua.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<section class="py-5 text-center">
+<div class="container">
+<h4>Softina Success Stories</h4>
+
+<div class="row mt-5">
+
+<div class="col-md-6 d-flex align-items-center gap-4 text-start">
+<img src="assets/success_story_icon1__.png" class="success-img">
+<div>
+<h6>Success Story Title</h6>
+<p class="text-muted small">Lorem ipsum dolor sit amet, consec- <br> 
+    tetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et
+<br> dolore manga aliqua. Quis ipsum <br> suspendisse ultrices gravida. Risus <br>
+commodo lacus vel facilisis.  </p>
+<a href="#" class="read-more">read more</a>
+</div>
+</div>
+
+<div class="col-md-6 d-flex align-items-center gap-4 text-start">
+<img src="assets/st2.png" class="success-img">
+<div>
+<h6>Success Story Title</h6>
+<p class="text-muted small"> Lorem ipsum dolor sit amet, consec- <br> 
+    tetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et
+<br> dolore manga aliqua. Quis ipsum <br> suspendisse ultrices gravida. Risus <br>
+commodo lacus vel facilisis. </p>
+<a href="#" class="read-more">read more</a>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<section class="container py-5">
+<div class="row">
+<div class="col-lg-6">
+<h4>Get in touch</h4>
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed<br>
+do eiusmod tempor incididunt ut labore et dolore magnal<br> aliqua. Quis ipsum suspendisse ultrices gravida.
+<br> Risus com-modo viverra maecenas accumsan lacus vel facilisis. </p>
+<strong>Address</strong>
+<p>Some StreBe <br>Munchen, 11230<br> Germany</p>
+<p><strong>Phone</strong><br>0800-123-4567<br>Fax: 7243312</p>
+</div>
+
+<div class="col-lg-6">
+<input class="form-control mb-3" placeholder="Enter your name">
+<input class="form-control mb-3" placeholder="Your email address">
+<textarea class="form-control mb-3" rows="4" placeholder="Comments"></textarea>
+<button class="send-btn">Send</button>
+</div>
+</div>
+</section>
+
+
+<img src="assets/dot_media.png" class="w-100">
+
+
+ 
+   <footer class="footer text-white">
+    <div class="container">
+
+        <div class="row footer-top">
+
+            <!-- COLUMN 1 -->
+            <div class="col-md-3">
+                <h6 class="footer-title">SOCIÉTÉ</h6>
+                <ul class="list-unstyled footer-links">
+                    <li>Contact</li>
+                    <li>Presse</li>
+                    <li>Recrutements</li>
+                    <li>English</li>
+                </ul>
+            </div>
+
+            <!-- COLUMN 2 -->
+            <div class="col-md-3">
+                <h6 class="footer-title">Solutions</h6>
+                <ul class="list-unstyled footer-links">
+                    <li>Plateformes d'apprentissage</li>
+                    <li>Fonctionnalités</li>
+                    <li>Mask</li>
+                </ul>
+            </div>
+
+            <!-- COLUMN 3 -->
+            <div class="col-md-3">
+                <h6 class="footer-title">Offres</h6>
+                <ul class="list-unstyled footer-links">
+                    <li>Académiques</li>
+                    <li>Organismes de formations</li>
+                    <li>Entreprise</li>
+                </ul>
+            </div>
+
+            <!-- COLUMN 4 -->
+            <div class="col-md-3 text-md-end footer-logos">
+
+                <div class="footer-brand mb-3">
+                    powered by <strong>trainerzone</strong> <br>
+                    <strong>Softina</strong>
+                </div>
+
+                <div class="social-icons mt-4">
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-facebook"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+           <div class="footer-bottom d-flex align-items-center justify-content-between mt-4">
+
+    
+            
+    <div class="footer-center">
+        <span>Copyright © 2022</span>
+        <span class="ms-3">All rights reserved. Worldwide.</span>
+    </div>
+
+   
+    <div class="footer-right">
+        Contact us | Sitemap | Legal disclaimer
+    </div>
+
+</div>
+
+
+
+        </div>
+
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
